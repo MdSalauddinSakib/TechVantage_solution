@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo{
+  font-family: 'Secular One', sans-serif;;
+}
+
+.header {
+  margin: 28px 0;
+}
+
+.header .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainmenu ul {
+  display: flex;
+}
+
+.mainmenu li a {
+  display: inline-block;
+  padding: 10px 27px;
+  text-decoration: none;
+  color: black;
+}
+
+.mainmenu li.get-started-link a {
+  color: #fff;
+  background: #1361F5;
+  border-radius: 10px;
+}
+
+.mainmenu li.login-link a {
+  color: #094BCA;
+}
