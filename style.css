@@ -19,11 +19,11 @@ body{
   font-family: 'Secular One', sans-serif;;
 }
 
-.header {
+.hero {
   margin: 28px 0;
 }
 
-.header .container {
+.hero .container {
   align-items: center;
   display: flex;
   justify-content: space-between;
