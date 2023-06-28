@@ -227,5 +227,12 @@ h1, h2, h3, h4, h5, h6{
   line-height: 32px;
 }
 
+.experience{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./public/images/Rectangle\ 2.png);
+  margin-top: 60px;
+}
 
 
