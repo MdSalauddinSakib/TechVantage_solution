@@ -208,8 +208,24 @@ h1, h2, h3, h4, h5, h6{
   font-size: 18px;
 }
 
+.activity{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
 
+.activity h2{
+  color: #094BCA;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50px;
+}
 
+.activity p{
+  color: #223140;
+  font-size: 18px;
+  line-height: 32px;
+}
 
 
 
