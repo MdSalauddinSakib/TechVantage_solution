@@ -7,6 +7,8 @@
 }
 
 body{
+  width: 1380px;
+  height: 1240px;
   font-family: 'Inter', sans-serif;
   letter-spacing: -1px;
   line-height: 32px;
@@ -92,4 +94,33 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 500;
   color: #1361f5;
   border-color: #E0E0E0;
+}
+
+.component-box .component {
+  display: inline-block;
+  padding: 15px 30px 15px 15px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.component-box .component h2 {
+  color: #223140;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.component-box .component p{
+  color: #535558;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.component-box .component img{
+  border: 1px solid none;
+  border-radius: 10px;
+  background-image: url(./public/images/ellipse-1.png);
 }
