@@ -8,6 +8,17 @@
 
 body{
   font-family: 'Inter', sans-serif;
+  letter-spacing: -1px;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #1D1D1D;
 }
 
 .container{
@@ -36,7 +47,6 @@ body{
 .mainmenu li a {
   display: inline-block;
   padding: 10px 27px;
-  text-decoration: none;
   color: black;
 }
 
@@ -48,4 +58,38 @@ body{
 
 .mainmenu li.login-link a {
   color: #094BCA;
+}
+
+.hero-text h2 {
+  line-height: 50px;
+  margin-bottom: 35px;
+  letter-spacing: -1px;
+  font-size: 48px;
+}
+
+.hero-text p {
+  margin-bottom: 35px;
+}
+
+.hero-img{
+  margin-left: 20px;
+}
+
+.btn {
+  padding: 10px 27px;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn.primary-btn{
+  color: #ffff;
+  background-color: #1361f5;
+}
+
+.btn.secondary-btn {
+  font-weight: 500;
+  color: #1361f5;
+  border-color: #E0E0E0;
 }
