@@ -233,6 +233,67 @@ h1, h2, h3, h4, h5, h6{
   text-align: center;
   background-image: url(./public/images/Rectangle\ 2.png);
   margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.empower{
+  color: #1D1D1D;
+  text-align: center;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
 }
 
 
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #FFF;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  margin-top: 0;
+}
+
+.card-description {
+  color: #666;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.card-button:hover {
+  background-color: #45a049;
+}
+
+.card .title a{
+  border: 1px solid none;
+  border-radius: 2px;
+  background: rgba(19, 97, 245, 0.10);
+}
+
+
+/* 
+Eid vacation end
+*/
