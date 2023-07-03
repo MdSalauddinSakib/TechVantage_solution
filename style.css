@@ -13,8 +13,6 @@ body{
   letter-spacing: -1px;
   line-height: 32px;
   font-size: 18px;
-  border-left: 1px solid red;
-  border-right: 1px solid red;
 }
 
 a{
@@ -164,6 +162,8 @@ h1, h2, h3, h4, h5, h6{
   margin-bottom: 30px;
 }
 
+/* Testimonial Blocks */
+
 .Testimonial-blocks{
   display: flex;
   flex-direction: row;
@@ -172,41 +172,80 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 60px;
 }
 
-.Testimonial-blocks .Testimonial{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.card{
+  width: 378px;
+  height: 391px;
+  text-align: center;
   padding: 15px 30px 15px 15px;
   border-radius: 5px;
   background: #FFF;
   box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-.Testimonial{
-  text-align: center;
+.card .card-header{
+  position: relative;
+  height: 48px;
 }
 
-.Testimonial img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  top: 0;
+.card .card-header .profile-img{
+  width: 130px;
+  height: 130px;
+  border-radius: 1000px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px #00000033;
+  transition: 0.3s;
 }
 
-.Testimonial p{
+.card .card-header .profile-img:hover {
+  width: 180px;
+  height: 180px;
+  transition: 0.3s;
+}
+
+.card .card-body {
+  padding: 35px 0 35px 0;
+}
+
+.card .card-body .description{
   color: #535558;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
 
-.Testimonial b{
+.card .card-body .company-name{
   color: #D9D9D9;
+  text-align: center;
   font-size: 24px;
+  font-family: Secular One;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.293px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.Testimonial h2{
-  color: #223140;
-  font-size: 18px;
+.card .John .company-name{
+  margin-top: 80px;
 }
+
+.card .card-body .name{
+  color: #223140;
+  font-size: 22px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* activity chart */
 
 .activity{
   display: flex;
@@ -244,56 +283,5 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 700;
   line-height: 50px;
   letter-spacing: -1px;
+  margin-bottom: 40px;
 }
-
-
-
-.card {
-  width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  background: #FFF;
-  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-}
-
-.card-content {
-  padding: 20px;
-}
-
-.card-title {
-  margin-top: 0;
-}
-
-.card-description {
-  color: #666;
-}
-
-.card-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-.card-button:hover {
-  background-color: #45a049;
-}
-
-.card .title a{
-  border: 1px solid none;
-  border-radius: 2px;
-  background: rgba(19, 97, 245, 0.10);
-}
-
-
-/* 
-Eid vacation end
-*/
