@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card</title>
+    <style>
+        .resources-blocks{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            font-family: arial;
+        }
+
+        .blocks-title {
+            color: #223140;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 25px;
+        }
+
+        .blocks-btn button {
+            display: inline-flex;
+            margin-top: 20px;
+            border: none;
+            border-radius: 2px;
+            background: rgba(19, 97, 245, 0.10);
+            color: #004CE6;
+            text-align: center;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 3px 8px;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .blocks-btn button:hover, a:hover {
+            opacity: 0.7;
+        }
+
+        .blocks-body{
+            padding-left: 20px;
+        }
+
+        .blocks-body a{
+            color: #094BCA;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            text-decoration: none;
+            display: inline-flex;
+            padding: 10px 0px;
+            align-items: flex-start;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h2 style="text-align:center">User Profile Card</h2> -->
+    <div class="resources-blocks">
+        <img src="./public/images/image-18.png" style="width:100%" alt="">
+        <div class="blocks-body">
+            <div class="blocks-btn">
+                <button>E-mail</button>
+                <button>Business Growthas</button>
+            </div>
+            <p class="blocks-title">10 Essential Strategies for Business Growth</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
